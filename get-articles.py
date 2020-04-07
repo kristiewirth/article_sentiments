@@ -46,8 +46,4 @@ for article in all_articles:
             + '\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
         )
 
-# requests.post(
-#     'https://hooks.zapier.com/hooks/catch/3023316/o998k4q/',
-#     params={'data': positive_articles},
-# )
 print(positive_articles)
